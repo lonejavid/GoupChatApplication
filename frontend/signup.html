@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="navbar">
+        <nav><ul>
+
+            <li><a href="/login.html"><button>Login</button></a></li>
+            <li><a href=""><button>Signup</button></a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h2>Signup here</h2>
+        <form >
+            <div>
+
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+
+                <label for="phone">Phone : </label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            
+            <div>
+
+                <label for="password">Password : </label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div>
+
+                <label for="confirm-password">Confirm password : </label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+            </div>
+            <button type="submit"> Submit</button>
+        </form>
+
+    </div>
+</body>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<script src="signup.js"></script>
+</html>
